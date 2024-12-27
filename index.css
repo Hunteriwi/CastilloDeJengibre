@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/Galletas1.jpg");
+  background-image: url("images/Galletas1.jpg"), url("images/Galletas1.jpg");
 }
 
 .u-section-1 .u-sheet-1 {
@@ -19,6 +19,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 719px;
   }
@@ -309,7 +313,7 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 882px;
+  min-height: 914px;
   margin-bottom: 0;
 }
 
@@ -322,12 +326,13 @@
 .u-section-3 .u-gallery-1 {
   height: 769px;
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .u-section-3 .u-carousel-indicators-1 {
   position: absolute;
-  bottom: 10px;
+  top: auto;
+  bottom: -10px;
 }
 
 .u-section-3 .u-carousel-item-1 {
